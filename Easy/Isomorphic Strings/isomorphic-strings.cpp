@@ -16,7 +16,7 @@ class Solution
     bool areIsomorphic(string str1, string str2)
     {
         
-         if(str1.length() != str2.length())
+          if(str1.length() != str2.length())
         {
             return false;
         }
@@ -48,6 +48,8 @@ class Solution
             }
         }
         return true;
+    
+        
     }
 };
 
