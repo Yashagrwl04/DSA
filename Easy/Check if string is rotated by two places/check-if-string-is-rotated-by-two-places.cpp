@@ -11,7 +11,7 @@ class Solution
     //another string by exactly 2 places.
     bool isRotated(string str1, string str2)
     {
-           int n = str1.size();
+         int n = str1.size();
         string temp1 = "";
         temp1 += str1.substr(n-2,2) + str1.substr(0,n-2);
         string temp2 = "";
