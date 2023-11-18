@@ -103,7 +103,7 @@ class Solution
     public:
     Node* reverseDLL(Node * head)
     {
-         Node *temp;
+        Node *temp;
         while(head){
             temp=head;
             swap(head->prev,head->next); 
