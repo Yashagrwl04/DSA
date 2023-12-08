@@ -10,7 +10,7 @@ class Solution
     public:
     int minNumber(int arr[],int N)
     {
-        int ele = 0;
+         int ele = 0;
         int sum =0;
         for(int i =0;i<N;i++){
             sum+=arr[i];
@@ -32,7 +32,7 @@ class Solution
                 return ele;
             }
             ele++;
-            sum+=1; 
+            sum+=1;
         }
     }
 };
