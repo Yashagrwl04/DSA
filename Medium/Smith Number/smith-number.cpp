@@ -7,8 +7,7 @@ using namespace std;
 
 class Solution {
   public:
-   
-     int smithNum(int &n) {
+    int smithNum(int n) {
         
         int sum=0;
         int last;
@@ -73,7 +72,6 @@ class Solution {
             temp=temp/10;
         }
         return(sum);
-      
     }
 };
 
