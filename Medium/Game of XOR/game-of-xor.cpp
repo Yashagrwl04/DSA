@@ -6,7 +6,6 @@ using namespace std;
 class Solution {
   public:
     int gameOfXor(int N , int A[]) {
-        // code here
         int ans = 0; 
         if(N % 2 == 0){
             return 0;
